@@ -6,4 +6,8 @@
 
 How it works:
 Enter Symbol: Input any valid stock or ETF symbol (e.g., AAPL, SPY, QQQ)
- 
+
+Build
+docker build -t StockIntervalPriceCalculator .
+Run
+docker run -p 8501:8501 StockIntervalPriceCalculator
